@@ -1,0 +1,89 @@
+# JetBrains+all
+# Ignore JetBrains IDE specific files
+
+# Generated files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/modules/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+.idea/replstate.xml
+.idea/sonarlint/
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+
+# JetBrains+all Patch
+# Ignore everything but code style settings and run configurations
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# React
+# Ignore React project specific files
+
+# Logging and backup files
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# Generated directories by npm and bower
+node_modules
+bower_components
+
+# Sublime Text specific files
+*.sublime*
+
+# Design files (PSD, Sketch, etc.)
+psd
+thumb
+sketch
+
+# VisualStudioCode
+# Ignore Visual Studio Code specific files
+
+# Configuration
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# VisualStudioCode Patch
+.history
+.ionide
+
+# React projects
+# Ignore build directory
+build
